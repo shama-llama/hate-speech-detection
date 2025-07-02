@@ -19,15 +19,6 @@ The unified dataset is constructed from the following public Amharic hate speech
 - **TRAC-HM2024** ([Ayele et al., 2024](https://aclanthology.org/2024.trac-1.1/)): TRAC 2024 Hindi/Amharic hate speech, preprocessed for modeling.
 - **ZAK2021** ([Zeleke, 2021](https://doi.org/10.5281/zenodo.5036437)): Amharic Hate Speech Detection Dataset, published on Zenodo.
 
-For citation, please use the following references:
-
-- Ayele et al., 2024. Exploring Boundaries and Intensities in Offensive and Hate Speech: Unveiling the Complex Spectrum of Social Media Discourse. Proceedings of The Fourth Workshop on Threat, Aggression & Cyberbullying, Torino, Italy.
-- Ayele et al., 2023. Exploring Amharic Hate Speech Data Collection and Classification Approaches. Proceedings of the 14th International Conference on RECENT ADVANCES IN NATURAL LANGUAGE PROCESSING (RANLP 2023), Varna, Bulgaria, pp. 49--59.
-- Minale, Samuel (2022). Amharic Social Media Dataset for Hate Speech Detection and Classification in Amharic Text with Deep Learning. Mendeley Data, V1. doi:10.17632/p74pfhz3yx.1
-- Getachew, Surafel (2020). Amharic Facebook Dataset for Hate Speech detection. Mendeley Data, V1. doi:10.17632/ymtmxx385m.1
-- Degu, Mequanent (2023). Amharic text dataset extracted from memes for hate speech detection or classification. Mendeley Data, V3. doi:10.17632/k4xk27zcpr.3
-- Zeleke Abebaw Kassa (2021). Amharic Hate Speech Detection Dataset. Zenodo, Jun. 28, 2021. doi:10.5281/zenodo.5036437.
-
 All these are merged into `dataset/combined_dataset.csv` and further processed into `dataset/preprocessed_dataset.csv` for modeling.
 
 ## Features
@@ -93,6 +84,22 @@ src/
 - For best results with Amharic text, use an Ethiopic font (e.g., Noto Sans Ethiopic or Abyssinica SIL) installed and configured in matplotlib.
 - The adversarial augmentation step is optional but recommended for improving model performance and robustness.
 - The code is designed to run both locally and in Google Colab (see the Colab badge in the main notebook).
+
+## References
+
+For citation, please use the following references:
+
+> Ayele et al., 2024. Exploring Boundaries and Intensities in Offensive and Hate Speech: Unveiling the Complex Spectrum of Social Media Discourse. Proceedings of The Fourth Workshop on Threat, Aggression & Cyberbullying, Torino, Italy.
+> 
+> Ayele et al., 2023. Exploring Amharic Hate Speech Data Collection and Classification Approaches. Proceedings of the 14th International Conference on RECENT ADVANCES IN NATURAL LANGUAGE PROCESSING (RANLP 2023), Varna, Bulgaria, pp. 49--59.
+>
+> Minale, Samuel (2022). Amharic Social Media Dataset for Hate Speech Detection and Classification in Amharic Text with Deep Learning. Mendeley Data, V1. doi:10.17632/p74pfhz3yx.1
+>
+> Getachew, Surafel (2020). Amharic Facebook Dataset for Hate Speech detection. Mendeley Data, V1. doi:10.17632/ymtmxx385m.1
+>
+> Degu, Mequanent (2023). Amharic text dataset extracted from memes for hate speech detection or classification. Mendeley Data, V3. doi:10.17632/k4xk27zcpr.3
+>
+> Zeleke Abebaw Kassa (2021). Amharic Hate Speech Detection Dataset. Zenodo, Jun. 28, 2021. doi:10.5281/zenodo.5036437.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
