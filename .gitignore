@@ -13,3 +13,6 @@ __pycache__/
 venv/
 ENV/
 env/
+
+# Output directories
+output/
