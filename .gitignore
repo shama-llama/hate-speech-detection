@@ -1,0 +1,15 @@
+# Jupyter and VS Code notebook checkpoints and metadata
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.vscode/
+
+# Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
+venv/
+ENV/
+env/
